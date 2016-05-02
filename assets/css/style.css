@@ -1,48 +1,58 @@
 #aboutme {
-	width:40%;
-	float:left;
-	padding:10px;
+	width:60%;
+	float: left;
+	padding: 10px;
 }
 #header {
-	background-color:#555;
-	padding:25px;
+	background-color: #010A26;
+	padding: 25px;
 }
 #sidebar {
-	margin-right:50px;
-	float:right;
-	padding:15px;
-	width:200px;
-	height:250px;
-	float:right;
-	background-color:#999;
+	margin-right: 50px;
+	margin-top:20px;
+	float: right;
+	padding: 15px;
+	width: 200px;
+	height: 250px;
+	float: right;
+	background-color: #B6D6F2;
 }
 #aboutsection {
-	display:inline-block;
-	margin-left:100px;
-	width:800px;
-	height:500px;
-	background-color: #666;
+	padding:20px 20px 20px 20px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 20px;
+	width: 800px;
+	height: 300px;
+	background-color: #B6D6F2;
 }
 #footer {
-	float:left;
-	width:100%;
-	text-align:center;
-	background-color:#333;
+	margin-top:130px;
+	color:#fff;
+	position: fixed;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #010A26;
+	padding: 30px 20px 30px 20px;
 }
 #nav {
-	font-family:sans-serif;
-	margin-right:100px;
-	width:50%;
-	float:right;
-	display:block;
-	background-color:#555;
+	font-family: sans-serif;
+	margin-right: 100px;
+	width: 50%;
+	float: right;
+	display: block;
+	background-color: #010A26;
 }
 #profilepic {
-	float:left;
+	float: left;
 }
 
 #social {
-	margin-top:20px;
+	margin-top: 20px;
+}
+.logo {
+	font-size:24px;
 }
 ul {
     list-style-type: none;
@@ -54,23 +64,26 @@ li {
     float: right;
 }
 h1 {
-	font-size:24px;
-	font-weight:bold;
-	font-family:georgia;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: georgia;
 }
 h2 {
-	font-size:20px;
-	font-weight:bold;
-	font-family:georgia;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: georgia;
 }
 p {
-	font-family:sans-serif;
+	font-family: sans-serif;
 }
 a {
-	font-family:sans-serif;
-	color:#fff;
-	text-decoration:none;
+	font-family: sans-serif;
+	color: #fff;
+	text-decoration: none;
 }
 li {
-	margin-right:10px;
+	margin-right: 10px;
+}
+body {
+	background-color: #eee;
 }
