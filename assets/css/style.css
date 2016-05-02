@@ -8,20 +8,30 @@
 	padding:25px;
 }
 #sidebar {
+	margin-right:50px;
+	float:right;
 	padding:15px;
-	margin-right:20%;
-	margin-bottom:20px;
+	width:200px;
 	height:250px;
 	float:right;
 	background-color:#999;
 }
+#aboutsection {
+	display:inline-block;
+	margin-left:100px;
+	width:800px;
+	height:500px;
+	background-color: #666;
+}
 #footer {
-	width:100%;
 	float:left;
+	width:100%;
 	text-align:center;
 	background-color:#333;
 }
 #nav {
+	font-family:sans-serif;
+	margin-right:100px;
 	width:50%;
 	float:right;
 	display:block;
@@ -30,14 +40,10 @@
 #profilepic {
 	float:left;
 }
-#aboutsection {
-	margin-top:70px;
-	margin-left:50px;
-}
+
 #social {
 	margin-top:20px;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -59,4 +65,12 @@ h2 {
 }
 p {
 	font-family:sans-serif;
+}
+a {
+	font-family:sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+li {
+	margin-right:10px;
 }
