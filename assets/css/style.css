@@ -44,15 +44,16 @@
 	float: right;
 	display: block;
 	background-color: #3E42FF;
+	color:#fff;
+}
+#social {
+	margin-top: 20px;
 }
 .profilepic {
 	float: left;
 	width:250px;
 	height:250px;
 	padding:10px;
-}
-#social {
-	margin-top: 20px;
 }
 .logo {
 	font-weight:bold;
@@ -69,15 +70,25 @@
 .txtbox {
 	width:100%;
 }
+.button {
+	width:80px;
+	height:40px;
+	background-color:#7b497c;
+	border:none;
+	color:#fff;
+}
 
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color:#fff;
 }
-li {
+.nav li {
     float: right;
+    margin-right: 30px;
+    color:#fff;
 }
 h1 {
 	font-size: 30px;
@@ -96,12 +107,9 @@ p {
 }
 a {
 	font-family: sans-serif;
-	color: #fff;
 	text-decoration: none;
 }
-li {
-	margin-right: 30px;
-}
+
 li:hover {
 	text-decoration:underline;
 }
@@ -115,10 +123,27 @@ input {
 	margin-top:10px;
 	margin-bottom:10px;
 }
-.button {
-	width:80px;
-	height:40px;
-	background-color:#7b497c;
-	border:none;
-	color:#fff;
+
+
+.portfolio li {
+	float:left;
+	margin-right:30px;
+}
+.box {
+	margin-top:20px;
+	width:200px;
+	height:180px;
+	background-color:#000;
+	padding:1px;
+}
+.innerbox {
+	width:200px;
+	height:50px;
+	background-color:#fff;
+	padding-top:10px;
+	margin-top:100px;
+}
+.innerboxtext {
+	margin-top:15px;
+	text-align:center;
 }
