@@ -48,6 +48,19 @@
 #social {
 	margin-top: 20px;
 }
+#container {
+  min-height: 85%;
+  margin-bottom: -142px; 
+}
+#container:after {
+  content: "";
+  display: block;
+}
+#footer, #container:after {
+  height: 142px; 
+}
+#footer {
+}
 .profilepic {
 	float: left;
 	width:250px;
@@ -59,7 +72,7 @@
 	color:#000;
 	padding: 25px 25px 23px 25px;
 	margin-left:74px;
-	font-size:24px;
+	font-size:28px;
 	background-color:#fff;
 }
 .msg {
@@ -89,6 +102,29 @@
     margin-right: 30px;
     color:#fff;
 }
+.portfolio li {
+	float:left;
+	margin-right:30px;
+}
+.box {
+	margin-top:20px;
+	width:200px;
+	height:180px;
+	background-color:#000;
+	padding:1px;
+}
+.innerbox {
+	width:200px;
+	height:50px;
+	background-color:#fff;
+	padding-top:10px;
+	margin-top:100px;
+}
+.innerboxtext {
+	margin-top:15px;
+	text-align:center;
+}
+
 h1 {
 	font-size: 30px;
 	font-weight: bold;
@@ -121,28 +157,4 @@ form{
 input {
 	margin-top:10px;
 	margin-bottom:10px;
-}
-
-
-.portfolio li {
-	float:left;
-	margin-right:30px;
-}
-.box {
-	margin-top:20px;
-	width:200px;
-	height:180px;
-	background-color:#000;
-	padding:1px;
-}
-.innerbox {
-	width:200px;
-	height:50px;
-	background-color:#fff;
-	padding-top:10px;
-	margin-top:100px;
-}
-.innerboxtext {
-	margin-top:15px;
-	text-align:center;
 }
