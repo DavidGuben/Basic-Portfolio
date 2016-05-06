@@ -38,11 +38,10 @@
 	padding: 30px 20px 30px 20px;
 }
 #nav {
+	width:280px;
 	font-family: sans-serif;
 	margin-right: 100px;
-	width: 50%;
 	float: right;
-	display: block;
 	background-color: #3E42FF;
 	color:#fff;
 }
@@ -86,7 +85,7 @@
     color:#fff;
 }
 .nav li {
-    float: right;
+	float:left;
     margin-right: 30px;
     color:#fff;
 }
