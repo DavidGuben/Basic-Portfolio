@@ -170,7 +170,7 @@ input {
 html, body {
   height: 100%;
 }
-img {
+.img {
 	position:absolute;
 	z-index:1;
 	clear:both;
